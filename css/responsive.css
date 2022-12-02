@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+    .services .services-items{
+
+    }
+    .services .services-items .item{
+        max-width: calc(100% / 2 - 30px);
+    }
+}
+@media screen and (max-width: 576px) {
+    .header nav .nav-items{
+        display: none;
+    }
+    .header nav .mobile-menu{
+        display: block;
+    }
+    .header .inner{
+        width: calc(100% - 50px);
+    }
+    .header .inner .inner-content p{
+        padding: 0 10px;
+        margin: 0px;
+    }
+}
+@media screen and (max-width: 526px) {
+    .services .services-items{
+        display: flex;
+        justify-content: center;
+    }
+    .services .services-items .item{
+        max-width: calc(100% - 130px);
+        margin: 20px auto;
+    }
+}
